@@ -1,11 +1,8 @@
----
-layout: post
-title: "Animating the Lorenz System in 3D"
+Title: Animating the Lorenz System in 3D
 date: 2013-02-16 08:05
 comments: true
-categories: 
----
 
+<!-- PELICAN_BEGIN_SUMMARY -->
 One of the things I really enjoy about Python is how easy it makes it to solve
 interesting problems and visualize those solutions in a compelling way. I've
 done several posts on creating animations using matplotlib's relatively new
@@ -28,7 +25,7 @@ animation tools, there's nothing fundamental that prevents it.
 At the commenter's suggestion, I decided to try this out with a simple
 example of a chaotic system: the Lorenz equations.
 
-<!-- more -->
+<!-- PELICAN_END_SUMMARY -->
 
 ## Solving the Lorenz System ##
 The [Lorenz Equations](http://en.wikipedia.org/wiki/Lorenz_system) are a
@@ -87,7 +84,7 @@ I've described the animation tools in-depth in a
 [previous post](/blog/2012/08/18/matplotlib-animation-tutorial/),
 I will skip that discussion here and jump straight into the code:
 
-{% include_code Lorenz System lorentz_animation.py %}
+{% include_code lorentz_animation.py Lorenz System %}
 
 The resulting animation looks something like this:
 
