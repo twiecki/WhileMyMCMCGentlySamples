@@ -17,7 +17,7 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
-MENUITEMS = [('Archive', 'archives.html')]
+MENUITEMS = []
 NEWEST_FIRST_ARCHIVES = True
 
 #Github include settings
@@ -39,9 +39,10 @@ GITHUB_SHOW_USER_LINK = True
 DEFAULT_PAGINATION = 10
 
 # STATIC_OUT_DIR requires pelican 3.3
-STATIC_OUT_DIR = 'downloads'
-STATIC_PATHS = ['images', 'figures', 'videos', 'code', 'notebooks']
-
+STATIC_OUT_DIR = ''
+STATIC_PATHS = ['images', 'figures', 'downloads']
+CODE_DIR = 'downloads/code'
+NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
 #  Theme requires http://github.com/duilio/pelican-octopress-theme/

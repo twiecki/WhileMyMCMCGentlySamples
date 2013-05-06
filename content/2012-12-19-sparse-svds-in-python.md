@@ -127,7 +127,7 @@ This creates square sparse matrices, measures the computation time as a function
 of the matrix size, and plots the results.  The results on my 3-year old
 linux box are below:
 
-{% img /downloads/figures/svd_benchmarks.png [SVD benchmarks] %}
+{% img /figures/svd_benchmarks.png [SVD benchmarks] %}
 
 A few comments: First, as expected, LAPACK is much slower than the rest.  This
 is due to two factors: first, LAPACK computes the full SVD, while the other

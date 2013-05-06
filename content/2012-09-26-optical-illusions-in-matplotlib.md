@@ -12,7 +12,7 @@ how easy it is to  use matplotlib to create simple animations.
 This morning I came across this cool optical illusion on
 [gizmodo](http://gizmodo.com/5945194/this-optical-trick-is-annoying-the-hell-out-of-me)
 
-{% img /downloads/images/original_illusion.gif %}
+{% img /images/original_illusion.gif %}
 
 <!-- PELICAN_END_SUMMARY -->
 

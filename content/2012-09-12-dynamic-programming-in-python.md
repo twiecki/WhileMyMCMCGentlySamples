@@ -52,14 +52,14 @@ out:
 import pylab as pl
 pl.hist(x, normed=True)
 ```
-{% img /downloads/figures/bayesblocks1.png [Simple Histogram of our Distribution] %}
+{% img /figures/bayesblocks1.png [Simple Histogram of our Distribution] %}
 
 Not too informative.  The default bins in `matplotlib` are too wide for this
 dataset.  We might be able to do better by increasing the number of bins:
 ``` python
 pl.hist(x, bins=100, normed=True)
 ```
-{% img /downloads/figures/bayesblocks2.png [More Detailed Histogram of our Distribution] %}
+{% img /figures/bayesblocks2.png [More Detailed Histogram of our Distribution] %}
 
 This is better.  But having to choose the bin width each time we plot a
 distribution is not only tiresome, it may lead to missing some important
@@ -220,7 +220,7 @@ H2 = hist(x, bins=bayesian_blocks(x), color='black',
           histtype='step', normed=True)
 ```
 
-{% img /downloads/figures/bayesblocks3.png [Adaptive Histogram of our Distribution] %}
+{% img /figures/bayesblocks3.png [Adaptive Histogram of our Distribution] %}
 
 The adaptive-width bins lead to a very clean representation of the important
 features in the data.  More importantly, these bins are quantifiably optimal,

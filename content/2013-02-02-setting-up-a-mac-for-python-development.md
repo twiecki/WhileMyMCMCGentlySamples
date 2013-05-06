@@ -4,7 +4,7 @@ comments: true
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-{% img left /downloads/images/OSX10.8.png 'OSX 10.8 Logo' %} A few weeks ago,
+{% img left /images/OSX10.8.png 'OSX 10.8 Logo' %} A few weeks ago,
 after years of using Linux exclusively for all my computing,
 I started a research fellowship in a new department
 and found a brand new Macbook Pro on my
@@ -31,7 +31,7 @@ all the relevant details, and I hope you will find this helpful!
 
 
 ## Accessing the Terminal ##
-{% img left /downloads/images/OSX_terminal.png 'OSX 10.8 Terminal Icon' %} 
+{% img left /images/OSX_terminal.png 'OSX 10.8 Terminal Icon' %} 
 Being from a Linux background, I was interested in setting up a
 Linux-like work environment, doing nearly everything from the terminal.
 Fortunately, OSX is built on unix, with a terminal integrated into the
@@ -203,7 +203,7 @@ git config --global user.email john@doe.com
 Another essential is a good text editor.  There are several good open source
 options for this.
 
-{% img left /downloads/images/textmate_icon.jpg 80 80 'Textmate icon' %}
+{% img left /images/textmate_icon.jpg 80 80 'Textmate icon' %}
 **Textmate** is a Mac native text editor which has many nice features, works
 nicely on mac, and is fairly clean and nice to use:
 ```
@@ -211,7 +211,7 @@ sudo port install textmate2
 mate tmp.txt
 ```
 
-{% img left /downloads/images/vim_icon.png 80 80 'Vim icon' %}
+{% img left /images/vim_icon.png 80 80 'Vim icon' %}
 **Vim** is another popular text editor: there is both a command-line version
 and a GUI version available:
 ```
@@ -220,7 +220,7 @@ sudo port install MacVim
 vim tmp.txt
 ```
 
-{% img left /downloads/images/emacs_icon.jpeg 80 80 'Emacs icon' %}
+{% img left /images/emacs_icon.jpeg 80 80 'Emacs icon' %}
 **Emacs** is my text editor of choice, and like Vim there is both a
 command-line version and a GUI version:
 ```

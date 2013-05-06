@@ -40,7 +40,7 @@ I did some quick data mining of the commit logs on GitHub to learn
 about the rate of new author contributions to core python projects with
 time, and this is what I found:
 
-{% img /downloads/figures/author_count.png 600 [Cumulative number of contributors for python packages] %}
+{% img /figures/author_count.png 600 [Cumulative number of contributors for python packages] %}
 
 See it? The late 2010 transition to GitHub is extremely apparent,
 and this reflects the first reason that NumPy, SciPy, Matplotlib,
@@ -108,7 +108,7 @@ here’s the thing: someone *will* come along who has the audacity to strike
 out and unify them.  I love this recent
 [tweet](http://twitter.com/dwf/status/246756226367643650) by Dave Warde-Farley:
 
-{% img /downloads/images/dwf_tweet.png 400 [Cumulative number of contributors for python packages] %}
+{% img /images/dwf_tweet.png 400 [Cumulative number of contributors for python packages] %}
 
 Somebody is going to do this: somebody will be the next Travis Oliphant
 and create NumTron to re-unite the community.

@@ -15,7 +15,7 @@ sorts of gifs in Python?  Over a few beers at an SFO bar, I started to try
 to figure it out.  To spoil the punchline a bit, I managed to do it, and the
 result looks like this:
 
-{% img center /downloads/images/mario.gif %}
+{% img center /images/mario.gif %}
 
 This animation was created *entirely in Python and matplotlib*, by scraping the
 image data directly from the Super Mario Bros. ROM.  Below I'll explain how
@@ -99,12 +99,12 @@ The first few hundred chunks are difficult to interpret by-eye. They appear
 similar to a 2D bar code: in this case the "bar code" represents pieces of the
 assembly code which store the Super Mario Bros. program.
 
-{% img center /downloads/images/mario_pattern_sourcecode.png 400 %}
+{% img center /images/mario_pattern_sourcecode.png 400 %}
 
 Scrolling down toward the end of the file, however, we can quickly recognize
 the thumbnails which make up the game's graphics:
 
-{% img center /downloads/images/mario_pattern_foreground.png 400 %}
+{% img center /images/mario_pattern_foreground.png 400 %}
 
 This first pattern table contains all the foreground graphics for the game.
 Looking closely, the first few thumbnails
@@ -112,7 +112,7 @@ are clearly recognizable as pieces of Mario's head and body.
 Going on we see pieces of various enemies in the game, as well as the iconic
 mushrooms and fire-flowers.
 
-{% img center /downloads/images/mario_pattern_background.png 400 %}
+{% img center /images/mario_pattern_background.png 400 %}
 
 The second pattern table contains all the background graphics for the game.
 Along with numbers and text, this contains the pieces which make up mario's
@@ -127,13 +127,13 @@ With a bit of trial and error, we can create each of the full frames and
 add color to make them look more authentic.  Below are all of the frames used
 to animate Mario's motion throughout the game:
 
-{% img center /downloads/images/mario_graphics1.png 400 %}
+{% img center /images/mario_graphics1.png 400 %}
 
 Similarly, we can use the thumbnails to construct some of the other
 familiar graphics from the game, including the goombas, koopa troopas,
 beetle baileys, mushrooms, fire flowers, and more.
 
-{% img center /downloads/images/mario_graphics2.png 350 %}
+{% img center /images/mario_graphics2.png 350 %}
 
 The Python code to extract, assemble, and plot these images can be downloaded
 [here](/downloads/code/mario/draw_mario.py).
@@ -161,7 +161,7 @@ download on [github](http://github.com/matplotlib/matplotlib).
 
 The result looks like this:
 
-{% img center /downloads/images/mario.gif %}
+{% img center /images/mario.gif %}
 
 Pretty good!  With a bit more work, it would
 be relatively straightforward to use the above code to do some more

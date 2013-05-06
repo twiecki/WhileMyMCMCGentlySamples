@@ -17,7 +17,7 @@ having binged on at least once or twice in their lives.  In minesweeper, the
 goal is to discover and avoid hidden mines within a gridded minefield, and
 the process takes some logic and quick thinking.
 
-{% img /downloads/images/minesweeper_2.gif 800 %}
+{% img /images/minesweeper_2.gif 800 %}
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -59,7 +59,7 @@ plt.show()
 ```
 The result will look something like this:
 
-{% img /downloads/images/poly_color.gif  400 %}
+{% img /images/poly_color.gif  400 %}
 
 Checking whether a click event is within a polygon or any other artist is
 a very common pattern.  For this reason, matplotlib provides a built-in
@@ -114,7 +114,7 @@ will automatically clear the surrounding squares -- but rather than enumerating
 every programming decision, I'll just show you the code.  It's less than
 200 lines, but the results are pretty nice:
 
-{% img /downloads/images/minesweeper.gif 440 440 %}
+{% img /images/minesweeper.gif 440 440 %}
 
 {% include_code  minesweeper.py Minesweeper %}
 

@@ -46,7 +46,7 @@ cross-platform graphics creation package that has some nice Python bindings,
 and can create some absolutely beautiful graphics.  This is one example of a
 physics flow visualization, taken from the above website:
 
-{% img center /downloads/images/nodebox-physics-flock.jpg 'NodeBox OpenGL visualization' %}
+{% img center /images/nodebox-physics-flock.jpg 'NodeBox OpenGL visualization' %}
 
 Despite Lynn’s admission that, with regards to the limitations of matplotlib,
 I had taken a bit of the wind out of her sails with my interactive matplotlib
