@@ -5,7 +5,8 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://jakevdp.github.io'
+# keep the .com address to properly find disqus comments
+SITEURL = 'http://jakevdp.github.com'
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -14,5 +15,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Uncomment following line for absolute URLs in production:
 #RELATIVE_URLS = False
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = 'UA-34061646-1'
+DISQUS_SITENAME = 'pythonicperambulations'

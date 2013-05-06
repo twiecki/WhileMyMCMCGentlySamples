@@ -1,3 +1,4 @@
 - adjust image and figure paths
 - check on weird formatting in github repos
-- check on Disqus comments
+- google custom search
+- do tags & categories
