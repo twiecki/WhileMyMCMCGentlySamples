@@ -17,8 +17,10 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
-MENUITEMS = []
-NEWEST_FIRST_ARCHIVES = True
+MENUITEMS = [('Archives', '/archives.html'),
+             ('Home Page', 'http://www.astro.washington.edu/users/vanderplas')]
+NEWEST_FIRST_ARCHIVES = False
+REVERSE_ARCHIVE_ORDER = True
 
 #Github include settings
 GITHUB_USER = 'jakevdp'
@@ -65,6 +67,13 @@ EXTRA_HEADER = open('_nb_header_mod.html').read().decode('utf-8')
 
 # Sharing
 TWITTER_USER = 'jakevdp'
-TWITTER_TWEET_BUTTON = True
+GOOGLE_PLUS_USER = 'jakevdp'
 GOOGLE_PLUS_ONE = True
+GOOGLE_PLUS_HIDDEN = False
 FACEBOOK_LIKE = False
+TWITTER_TWEET_BUTTON = True
+TWITTER_LATEST_TWEETS = True
+TWITTER_FOLLOW_BUTTON = True
+TWITTER_TWEET_COUNT = 3
+TWITTER_SHOW_REPLIES = 'false'
+TWITTER_SHOW_FOLLOWER_COUNT = 'true'

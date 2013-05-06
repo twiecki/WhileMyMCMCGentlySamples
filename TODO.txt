@@ -1,4 +1,3 @@
-- adjust image and figure paths
-- check on weird formatting in github repos
-- google custom search
-- do tags & categories
+- Google custom search
+- RSS feeds
+- tags & categories
