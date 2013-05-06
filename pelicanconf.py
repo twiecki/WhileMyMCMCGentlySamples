@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u'Jake Vanderplas'- check on Disqus comments
+AUTHOR = u'Jake Vanderplas'
 
 SITENAME = u'Pythonic Perambulations'
 SITESUBTITLE = u'Musings and ramblings through the world of Python'
