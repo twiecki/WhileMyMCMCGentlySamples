@@ -1,3 +1,2 @@
-- Google custom search
 - tags & categories
 - double-check all article urls

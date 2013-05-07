@@ -20,7 +20,6 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = [('Archives', '/archives.html'),
              ('Home Page', 'http://www.astro.washington.edu/users/vanderplas')]
 NEWEST_FIRST_ARCHIVES = False
-REVERSE_ARCHIVE_ORDER = True
 
 #Github include settings
 GITHUB_USER = 'jakevdp'
@@ -82,3 +81,7 @@ TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
 FEED_ATOM = 'atom.xml'
+
+
+# Search
+SEARCH_BOX = True
