@@ -1,6 +1,7 @@
 Title: Numba vs Cython
 date: 2012-08-24 10:41
 comments: true
+slug: numba-vs-cython
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 Often I'll tell people that I use python for computational analysis, and they

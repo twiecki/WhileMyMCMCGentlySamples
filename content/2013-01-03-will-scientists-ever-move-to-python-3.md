@@ -1,6 +1,7 @@
 Title: Will Scientists Ever Move to Python 3?
 date: 2013-01-03 17:08
 comments: true
+slug: will-scientists-ever-move-to-python-3
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 It's been just over four years since the introduction of Python 3, and there

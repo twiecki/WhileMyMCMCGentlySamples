@@ -1,6 +1,7 @@
 Title: Minesweeper in Matplotlib
 date: 2012-12-06 18:23
 comments: true
+slug: minesweeper-in-matplotlib
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 Lately I've been playing around with interactivity in matplotlib.  A couple

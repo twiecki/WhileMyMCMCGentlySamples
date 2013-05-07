@@ -1,6 +1,7 @@
 Title: Dynamic Programming in Python: Bayesian Blocks
 date: 2012-09-12 19:02
 comments: true
+slug: dynamic-programming-in-python
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 Of all the programming styles I have learned,

@@ -1,7 +1,7 @@
 Title: Sparse SVDs in Python
 date: 2012-12-19 08:21
 comments: true
-categories: 
+slug: sparse-svds-in-python
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

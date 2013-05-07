@@ -1,6 +1,7 @@
 Title: Optical Illusions in Matplotlib
 date: 2012-09-26 07:27
 comments: true
+slug: optical-illusions-in-matplotlib
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 A while ago I posted some information on the new matplotlib animation

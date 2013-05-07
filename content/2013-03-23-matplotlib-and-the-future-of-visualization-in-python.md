@@ -1,6 +1,7 @@
 Title: Matplotlib and the Future of Visualization in Python
 date: 2013-03-23 08:31
 comments: true
+slug: matplotlib-and-the-future-of-visualization-in-python
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 Last week, I had the privilege of attending and speaking at the

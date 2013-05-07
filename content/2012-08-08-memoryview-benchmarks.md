@@ -1,7 +1,7 @@
 Title: Memoryview Benchmarks
 date: 2012-08-08 18:50
 comments: true
-categories: 
+slug: memoryview-benchmarks
 ---
 
 <!-- PELICAN_BEGIN_SUMMARY -->

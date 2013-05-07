@@ -1,6 +1,7 @@
 Title: 3D Interactive Rubik's Cube in Python
 date: 2012-11-26 22:00
 comments: true
+slug: 3d-interactive-rubiks-cube-in-python
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 Over the weekend, I built a interactive 3D Rubik's cube simulator in python

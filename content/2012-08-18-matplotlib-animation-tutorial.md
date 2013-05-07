@@ -1,6 +1,7 @@
 Title: Matplotlib Animation Tutorial
 date: 2012-08-18 08:01
 comments: true
+slug: matplotlib-animation-tutorial
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 [Matplotlib](http://matplotlib.sourceforge.net) version 1.1 added some tools

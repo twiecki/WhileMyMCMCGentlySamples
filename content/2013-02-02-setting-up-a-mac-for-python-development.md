@@ -1,6 +1,7 @@
 Title: Setting Up a Mac for Python Development
 date: 2013-02-02 11:01
 comments: true
+slug: setting-up-a-mac-for-python-development
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

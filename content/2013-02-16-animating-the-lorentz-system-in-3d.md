@@ -1,6 +1,7 @@
 Title: Animating the Lorenz System in 3D
 date: 2013-02-16 08:05
 comments: true
+slug: animating-the-lorentz-system-in-3d
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 One of the things I really enjoy about Python is how easy it makes it to solve
