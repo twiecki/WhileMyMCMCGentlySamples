@@ -254,7 +254,9 @@ In the theme file, within the header tag, we add the following:
      {{ EXTRA_HEADER }}
      {% endif %}
 
-The result is properly formatted html notebooks inserted into posts.
+Here is the result: a short notebook inserted directly into the post:
+
+{% notebook TestNotebook.ipynb %}
 
 ##  ##
 With all those things in place, the blog was ready to be built.  The result
