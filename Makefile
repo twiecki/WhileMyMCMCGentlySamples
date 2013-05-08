@@ -6,6 +6,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+DEPLOYREPOSITORY=jakevdp.github.io
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -69,8 +70,18 @@ dropbox_upload: publish
 ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
-github: publish
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+deploy: publish
+	if test -d _build; \
+	then echo " (_build directory exists)"; \
+	else mkdir _build; \
+	fi
+	if test -d _build/$(DEPLOYREPOSITORY); \
+	then echo "  (repository directory exists)"; \
+	else cd _build && git clone git@github.com:jakevdp/$(DEPLOYREPOSITORY).git; \
+	fi
+	cd _build/$(DEPLOYREPOSITORY) && git pull
+	rsync -r $(OUTPUTDIR)/* _build/$(DEPLOYREPOSITORY)/
+	cd _build/$(DEPLOYREPOSITORY) && git add . && git commit -m "make deploy"
+	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
