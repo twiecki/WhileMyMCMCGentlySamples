@@ -270,7 +270,7 @@ If you're so inclined, you might try running the example and adjusting the
 potential or the input wave function to see the effect on the dynamics of
 the quantum system.
 
-{% include_code schrodinger.py Schrodinger %}
+{% include_code schrodinger.py lang:python Schrodinger %}
 
 *Edit: I changed the legend font properties to play nicely with older
  matplotlib versions.  Thanks to Yann for pointing it out.*

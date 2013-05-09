@@ -27,7 +27,7 @@ to be the most useful.
 First we'll use `FuncAnimation` to do a basic animation of a sine wave moving
 across the screen:
 
-{% include_code basic_animation.py Basic Animation %}
+{% include_code basic_animation.py lang:python Basic Animation %}
 
 Let's step through this and see what's going on.  After importing required
 pieces of `numpy` and `matplotlib`, The script sets up the plot:
@@ -93,7 +93,7 @@ the pendulum position over 10 seconds, and then animating the results.  I
 saw this and wondered if python would be fast enough to compute the dynamics
 on the fly.  It turns out it is:
 
-{% include_code double_pendulum.py Double Pendulum %}
+{% include_code double_pendulum.py lang:python Double Pendulum %}
 
 Here we've created a class which stores the state of the double pendulum
 (encoded in the angle of each arm plus the angular velocity of each arm)
@@ -114,7 +114,7 @@ in a box under the force of gravity.  The collisions are elastic: they conserve
 energy and 2D momentum, and the particles bounce realistically off the walls
 of the box and fall under the influence of a constant gravitational force:
 
-{% include_code particle_box.py Particles in a Box %}
+{% include_code particle_box.py lang:python Particles in a Box %}
 
 The math should be familiar to anyone with a physics background, and the
 result is pretty mesmerizing.  I coded this up during a flight, and ended

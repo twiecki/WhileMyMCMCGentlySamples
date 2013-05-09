@@ -117,7 +117,7 @@ every programming decision, I'll just show you the code.  It's less than
 
 {% img /images/minesweeper.gif 440 440 %}
 
-{% include_code  minesweeper.py Minesweeper %}
+{% include_code minesweeper.py lang:python Minesweeper %}
 
 There are still some things missing from this which are present in any good
 minesweeper implementation: a timer, the ability to reset the game without

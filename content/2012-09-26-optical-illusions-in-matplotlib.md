@@ -21,7 +21,7 @@ It intrigued me, so I decided to see if I could create it using matplotlib.
 Using my previous template and a bit of geometry, I was able to finish it
 before breakfast!  Here's the code:
 
-{% include_code animate_square.py Optical Illusion  %}
+{% include_code animate_square.py lang:python Optical Illusion %}
 
 And here's the result:
 

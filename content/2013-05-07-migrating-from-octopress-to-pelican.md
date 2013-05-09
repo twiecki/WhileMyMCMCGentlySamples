@@ -156,11 +156,11 @@ description of this video).
 The ``include_code`` tag allows the insertion of formatted lines from
 a file into the post, with a title and a link to the source file:
 
-    {% literal include_code filename.py [title] %}
+    {% literal include_code filename.py [lang:python] [title] %}
 
 Here is an example of the output of the code include tag:
 
-{% include_code hello_world.py Hello World %}
+{% include_code hello_world.py lang:python Hello World %}
 
 For more information on using these tags, refer to the
 [module doc-strings](https://github.com/getpelican/pelican-plugins/pull/21).

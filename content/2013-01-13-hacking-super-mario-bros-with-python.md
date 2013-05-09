@@ -158,7 +158,7 @@ released matplotlib version, so using the save command below will
 require installing the development version of matplotlib, available for
 download on [github](http://github.com/matplotlib/matplotlib).
 
-{% include_code mario/animate_mario.py "Mario Animation" %}
+{% include_code mario/animate_mario.py lang:python "Mario Animation" %}
 
 The result looks like this:
 

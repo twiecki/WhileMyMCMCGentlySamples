@@ -85,7 +85,7 @@ I've described the animation tools in-depth in a
 [previous post](/blog/2012/08/18/matplotlib-animation-tutorial/),
 I will skip that discussion here and jump straight into the code:
 
-{% include_code lorentz_animation.py Lorenz System %}
+{% include_code lorentz_animation.py lang:python Lorenz System %}
 
 The resulting animation looks something like this:
 

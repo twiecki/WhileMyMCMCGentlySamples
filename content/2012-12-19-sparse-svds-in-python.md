@@ -121,7 +121,7 @@ code releasable, but there is enough there to enable some quick benchmarks.
 # Benchmark Comparisons #
 To benchmark these four SVD options, I used the following code:
 
-{% include_code plot_svd_benchmarks.py SVD Benchmarks %}
+{% include_code plot_svd_benchmarks.py lang:python SVD Benchmarks %}
 
 This creates square sparse matrices, measures the computation time as a function
 of the matrix size, and plots the results.  The results on my 3-year old
