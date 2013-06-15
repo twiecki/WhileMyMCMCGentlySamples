@@ -4,6 +4,11 @@ comments: true
 slug: numba-vs-cython
 
 <!-- PELICAN_BEGIN_SUMMARY -->
+
+*For a more up-to-date comparison of Numba and Cython, see the*
+[*newer post*](http://jakevdp/github.io/blog/2013/06/15/numba-vs-cython-take-2/)
+*on this subject.*
+
 Often I'll tell people that I use python for computational analysis, and they
 look at me inquisitively.  "Isn't python pretty slow?"  They have a point.
 Python is an interpreted language, and as such cannot natively perform
