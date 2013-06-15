@@ -1,1 +1,2 @@
+activate_pydev
 export PYTHONPATH=$HOME/Opensource/nbconvert/
