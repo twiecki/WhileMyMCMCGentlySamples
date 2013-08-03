@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+import os
 
 AUTHOR = u'Jake Vanderplas'
 
@@ -49,8 +50,10 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 # Theme and plugins
 #  Theme requires http://github.com/duilio/pelican-octopress-theme/
 #  Plugins require http://github.com/getpelican/pelican-plugins/
-THEME = '/home/vanderplas/Opensource/pelican-octopress-theme/'
-PLUGIN_PATH = '/home/vanderplas/Opensource/pelican-plugins'
+THEME = os.path.join(os.environ.get('HOME'),
+                     'Opensource/pelican-octopress-theme/')
+PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
+                           'Opensource/pelican-plugins')
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
