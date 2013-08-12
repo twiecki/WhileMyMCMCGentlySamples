@@ -2,15 +2,16 @@
 # -*- coding: utf-8 -*- #
 import os
 
-AUTHOR = u'Jake Vanderplas'
+AUTHOR = u'Thomas Wiecki'
+SITENAME = u'While My MCMC Gently Samples'
+SITESUBTITLE = """Bayesian modeling, Computational Psychiatry, and Python"""
+SITEURL = ''
 
-SITENAME = u'Pythonic Perambulations'
-SITESUBTITLE = u'Musings and ramblings through the world of Python and beyond'
-SITEURL = '' # change in publishconf.py
+TIMEZONE = 'USA/NYC'
 
 # Times and dates
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
-TIMEZONE = 'US/Pacific'
+TIMEZONE = 'US/Eastern'
 DEFAULT_LANG = u'en'
 
 # Set the article URL
@@ -18,15 +19,18 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
-MENUITEMS = [('Archives', '/archives.html'),
-             ('Home Page', 'http://www.astro.washington.edu/users/vanderplas')]
+MENUITEMS = (('About', 'https://sites.google.com/a/brown.edu/lncc/home/members/thomas-wiecki'),
+             ('Archives', '/archives.html'),
+             ('Publications', 'http://scholar.google.com/citations?hl=en&user=s-Ikj-MAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F5Oqgc3UBzbTBAJACr4gTDyi09-j1uryXtyXvDaEUrgtxiKmed0IIQlRvn9CHwFAcpHQB6ncpaBSY6vFsK6fazj3wmh6WLkuQdWdwuxd3uhwYN2kC8&undo=untrash_citations,W7OEmFMy1HYC'),
+             ('Contact', '#'))
+
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
-#GITHUB_USER = 'jakevdp'
-#GITHUB_REPO_COUNT = 0
-#GITHUB_SKIP_FORK = True
-#GITHUB_SHOW_USER_LINK = True
+GITHUB_USER = 'twiecki'
+GITHUB_REPO_COUNT = 3
+GITHUB_SKIP_FORK = True
+GITHUB_SHOW_USER_LINK = True
 
 # Blogroll
 #LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
@@ -76,8 +80,8 @@ else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 # Sharing
-TWITTER_USER = 'jakevdp'
-GOOGLE_PLUS_USER = 'jakevdp'
+TWITTER_USER = 'twiecki'
+GOOGLE_PLUS_USER = '107323607569066774338' #thomas.wiecki'
 GOOGLE_PLUS_ONE = True
 GOOGLE_PLUS_HIDDEN = False
 FACEBOOK_LIKE = False
