@@ -5,6 +5,11 @@ slug: setting-up-a-mac-for-python-development
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
+*Edit, August 2013: my current favorite way to set up a python installation
+on mac (and any other system) is to use the
+[anaconda](https://store.continuum.io/) package offered by Continuum
+Analytics.  It's free, full-featured, and extremely easy to use.*
+
 {% img left /images/OSX10.8.png 'OSX 10.8 Logo' %} A few weeks ago,
 after years of using Linux exclusively for all my computing,
 I started a research fellowship in a new department
