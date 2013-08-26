@@ -6,7 +6,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-DEPLOYREPOSITORY=jakevdp.github.io
+DEPLOYREPOSITORY=twiecki.github.io
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -77,7 +77,7 @@ deploy: publish
 	fi
 	if test -d _build/$(DEPLOYREPOSITORY); \
 	then echo "  (repository directory exists)"; \
-	else cd _build && git clone git@github.com:jakevdp/$(DEPLOYREPOSITORY).git; \
+	else cd _build && git clone git@github.com:twiecki/$(DEPLOYREPOSITORY).git; \
 	fi
 	cd _build/$(DEPLOYREPOSITORY) && git pull
 	rsync -r $(OUTPUTDIR)/* _build/$(DEPLOYREPOSITORY)/
