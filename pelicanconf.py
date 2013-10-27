@@ -5,7 +5,7 @@ import os
 AUTHOR = u'Jake Vanderplas'
 
 SITENAME = u'Pythonic Perambulations'
-SITESUBTITLE = u'Musings and ramblings through the world of Python'
+SITESUBTITLE = u'Musings and ramblings through the world of Python and beyond'
 SITEURL = '' # change in publishconf.py
 
 # Times and dates
