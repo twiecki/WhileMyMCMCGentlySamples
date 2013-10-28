@@ -67,3 +67,5 @@ I would argue that the concept of prestige is the key: the solution to the probl
 I fear that without these sorts of changes in the culture of academia itself, the progress of scientific research will be severeley handicapped in the coming years.
 
 We live in an exciting time, where the depth and breadth of our scientific understanding of the world around us are being driven by an ever accelerating ability to gather, store, process, and learn from datasets of unprecedented size.  To keep up this pace of discovery, the best researchers need incentives to stay within the research community.  It's not an easy problem to address, but with a little effort, we can assure the health and sustainability of the scientific research community into the future.
+
+<small>*I'm indebted to many colleagues for discussions which prompted these thoughts, in particular Bill Howe and Fernando Perez. Thanks also to my good friend Will Mari ([@willthewordguy](https://twitter.com/willthewordguy)) for reading over this post and giving helpful feedback.*</small>
