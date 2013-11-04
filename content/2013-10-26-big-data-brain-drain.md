@@ -64,7 +64,7 @@ I would argue that the concept of prestige is the key: the solution to the probl
 
 4. **Increase the pay of post-doctoral scientific research positions.**  Some might find this idea controversial, but the current situation is absolutely unsustainable.  The base postdoctoral salary for NIH positions is [under $40,000 per year](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-12-033.html) for someone who has just completed a PhD in their field. This is generously increased to about $50,000 per year after seven (!) years of post-doctoral experience. Those with the skills mentioned in this article could easily ask for several times that compensation in a first-year industry job, and would find themselves working on interesting problems in a setting where their computational skills are utilized and valued.
 
-I fear that without these sorts of changes in the culture of academia itself, the progress of scientific research will be severeley handicapped in the coming years.
+I fear that without these sorts of changes in the culture of academia itself, the progress of scientific research will be severely handicapped in the coming years.
 
 We live in an exciting time, where the depth and breadth of our scientific understanding of the world around us are being driven by an ever accelerating ability to gather, store, process, and learn from datasets of unprecedented size.  To keep up this pace of discovery, the best researchers need incentives to stay within the research community.  It's not an easy problem to address, but with a little effort, we can assure the health and sustainability of the scientific research community into the future.
 
