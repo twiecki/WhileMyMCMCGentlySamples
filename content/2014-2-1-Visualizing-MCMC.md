@@ -13,7 +13,7 @@ javascript animations of three MCMC sampling algorithms --
 I like visualizations because they provide a good intuition for how
 the samplers work and what problems they can run into.
 
-The full code can be found [here](). Note that for this post I used
+You can download the full notebook [here](https://rawgithub.com/twiecki/WhileMyMCMCGentlySamples/master/content/downloads/notebooks/sample_animation.ipynb) or [view it in your browser](http://nbviewer.ipython.org/github/twiecki/WhileMyMCMCGentlySamples/blob/master/content/downloads/notebooks/sample_animation.ipynb?create=1). Note that for this post I used
 video embedding due to the size of the animations if they are not
 compressed. The notebook contains code for both.
 
@@ -47,7 +47,7 @@ you can see which makes sampling inefficient.
 
 Lets see how slice sampling fares.
 
-{% notebook sample_animation.ipynb cells[7:8] %}
+{% notebook sample_animation.ipynb cells[6:7] %}
 
 As you can see, slice sampling does a much better job. For one thing,
 there are no rejections (which is a property of the algorithm). But
@@ -64,7 +64,7 @@ sampler can actually move diagonally as well (more like the Queen). As
 you can see, it does a much better job at exploring the posterior and
 takes much wider steps.
 
-{% notebook sample_animation.ipynb cells[8:9] %}
+{% notebook sample_animation.ipynb cells[7:8] %}
 
 Mesmerizing, ain't it?
 
