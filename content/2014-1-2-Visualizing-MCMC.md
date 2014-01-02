@@ -48,20 +48,19 @@ random-walk behavior you can see which makes sampling inefficient (for
 a good intuition about this "drunken walk", see
 [here](http://healthyalgorithms.com/2010/03/12/a-useful-metaphor-for-explaining-mcmc/)).
 
-## Slice sampling
+## Gibbs sampling
 
-Lets see how slice sampling fares.
+Lets see how Gibbs sampling fares with a slice step method.
 
 {% notebook sample_animation.ipynb cells[6:7] %}
 
-As you can see, slice sampling does a much better job. For one thing,
+As you can see, Gibbs sampling does a much better job. For one thing,
 there are no rejections (which is a property of the algorithm). But
-there's still room for improvement. At the core, slice sampling is a
-Gibbs sampling method which means that it always updates one random
-variable at a time while keeping all others constant. This property
-leads to small steps being taken (imagine trying to move along a
-diagonal area on the chess board with a Rook) and makes sampling from
-correlated posteriors inefficient.
+there's still room for improvement. At the core, Gibbs sampling always
+updates one random variable at a time while keeping all others
+constant. This property leads to small steps being taken (imagine
+trying to move along a diagonal area on the chess board with a Rook)
+and makes sampling from correlated posteriors inefficient.
 
 
 ## NUTS (Hamiltonian Monte Carlo)
