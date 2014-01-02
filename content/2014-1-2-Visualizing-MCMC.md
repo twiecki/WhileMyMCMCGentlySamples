@@ -24,13 +24,6 @@ the *trace* of the *marginal* posterior of the `intercept` while the
 right plot shows the trace of the *marginal* posterior of the `slope` parameter. Each
 point represents a sample drawn from the posterior. At 3 quarters of the way I added a thousand samples to show that they all sample from the posterior eventually.
 
-As you will see, there is quite some correlation between `intercept`
-and `slope` -- if we believe in a higher intercept we must also
-believe in a lower slope (which makes geometrical sense if you think
-how lines could fit through the point clouds). This often makes it
-difficult for the MCMC algorithm to converge (i.e. sample from the
-true posterior).
-
 ## Metropolis-Hastings
 
 First, lets see how our old-school Metropolis-Hastings (MH)
@@ -40,12 +33,20 @@ for a tutorial), my own animation code, and the [recently merged iterative sampl
 
 {% notebook sample_animation.ipynb cells[5:6] %}
 
-Unfortunately, not that well. The reason why nothing happens in the
-beginning is that MH proposes huge jumps that are not accepted because they
-are way outside the posterior. PyMC then tunes the proposal
-distribution so that smaller jumps are proposed. These smaller jumps
-however lead to the random-walk behavior you can see which makes
-sampling inefficient (for a good intuition about this "drunken walk", see [here](http://healthyalgorithms.com/2010/03/12/a-useful-metaphor-for-explaining-mcmc/)).
+As you can see, there is quite some correlation between `intercept`
+and `slope` -- if we believe in a higher intercept we must also
+believe in a lower slope (which makes geometrical sense if you think
+how lines could fit through the point clouds). This often makes it
+difficult for the MCMC algorithm to converge (i.e. sample from the
+true posterior) as we wittness here.
+
+The reason MH does not do anything at first is that MH proposes huge
+jumps that are not accepted because they are way outside the
+posterior. PyMC then tunes the proposal distribution so that smaller
+jumps are proposed. These smaller jumps however lead to the
+random-walk behavior you can see which makes sampling inefficient (for
+a good intuition about this "drunken walk", see
+[here](http://healthyalgorithms.com/2010/03/12/a-useful-metaphor-for-explaining-mcmc/)).
 
 ## Slice sampling
 
