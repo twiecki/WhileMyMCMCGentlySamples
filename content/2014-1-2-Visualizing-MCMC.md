@@ -1,5 +1,5 @@
 Title: Animating MCMC with PyMC3 and Matplotlib
-date: 2014-2-1 09:00
+date: 2014-1-2 09:00
 comments: true
 slug: visualizing-mcmc
 tags: bayesian statistics
