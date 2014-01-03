@@ -10,6 +10,9 @@ Here's the deal: I used [PyMC3](https://github.com/pymc-devs/pymc),
 javascript animations of three MCMC sampling algorithms --
 [Metropolis-Hastings](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm), [slice sampling](https://en.wikipedia.org/wiki/Slice_sampling) and [NUTS](http://arxiv.org/abs/1111.4246).
 
+Note that this post uses the html5 video tag which doesn't seem to
+work for Firefox but should work on any other browser.
+
 I like visualizations because they provide a good intuition for how
 the samplers work and what problems they can run into.
 
