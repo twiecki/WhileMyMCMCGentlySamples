@@ -1,0 +1,6 @@
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = git@github.com:getpelican/pelican-plugins.git
+[submodule "pelican-octopress-theme"]
+	path = pelican-octopress-theme
+	url = git@github.com:jakevdp/pelican-octopress-theme.git

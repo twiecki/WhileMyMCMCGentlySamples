@@ -23,10 +23,10 @@ MENUITEMS = [('Archives', '/archives.html'),
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
-GITHUB_USER = 'jakevdp'
-GITHUB_REPO_COUNT = 3
-GITHUB_SKIP_FORK = True
-GITHUB_SHOW_USER_LINK = True
+#GITHUB_USER = 'jakevdp'
+#GITHUB_REPO_COUNT = 0
+#GITHUB_SKIP_FORK = True
+#GITHUB_SHOW_USER_LINK = True
 
 # Blogroll
 #LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
@@ -52,15 +52,13 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
-#  Theme requires http://github.com/duilio/pelican-octopress-theme/
-#  Plugins require http://github.com/getpelican/pelican-plugins/
-THEME = os.path.join(os.environ.get('HOME'),
-                     'Opensource/pelican-octopress-theme/')
-PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-                           'Opensource/pelican-plugins')
+THEME = 'pelican-octopress-theme/'
+PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
+
+categories = False
 
 
 # The theme file should be updated so that the base header contains the line:
