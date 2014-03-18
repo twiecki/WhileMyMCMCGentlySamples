@@ -58,7 +58,7 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
 
-categories = False
+DISPLAY_PAGES_ON_MENU = False
 
 
 # The theme file should be updated so that the base header contains the line:
