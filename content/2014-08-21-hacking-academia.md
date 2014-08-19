@@ -1,5 +1,5 @@
 Title: Hacking Academia: Data Science and the University
-date: 2014-08-13 13:00
+date: 2014-08-21 13:00
 comments: true
 slug: hacking-academia
 
