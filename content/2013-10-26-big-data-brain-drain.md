@@ -3,6 +3,8 @@ date: 2013-10-26 13:00
 comments: true
 slug: big-data-brain-drain
 
+*Update, August 2014: see [Hacking Academia](/blog/2014/08/22/hacking-academia/), my most recent reflection on this subject.*
+
 <!-- PELICAN_BEGIN_SUMMARY -->
 Regardless of what you might think of the ubiquity of the "Big Data" meme, it's clear that the growing size of datasets is changing the way we approach the world around us.  This is true in fields from industry to government to media to academia and virtually everywhere in between. Our increasing abilities to gather, process, visualize, and learn from large datasets is helping to push the boundaries of our knowledge.
 

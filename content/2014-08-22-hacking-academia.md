@@ -1,10 +1,10 @@
-Title: Hacking Academia: Data Science in the University
-date: 2014-08-21 13:00
+Title: Hacking Academia: Data Science and the University
+date: 2014-08-22 08:00
 comments: true
 slug: hacking-academia
 
 <!-- PELICAN_BEGIN_SUMMARY -->
-*A reflection on a breakout session at [SciFoo](http://www.digital-science.com/sciencefoo/) where we discussed issues of data science within academia.*
+*A reflection on our [SciFoo](http://www.digital-science.com/sciencefoo/) breakout session, where we discussed issues of data science within academia.*
 
 Almost a year ago, I wrote a post I called the [Big Data Brain Drain](http://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/), lamenting the ways that academia is neglecting the skills of modern data-intensive research, and in doing so is driving away many of the men and women who are perhaps best equipped to enable progress in these fields. This seemed to strike a chord with a wide range of people, and has led me to some incredible opportunities for conversation and collaboration on the subject. One of those conversations took place at the recent SciFoo conference, and this article is my way of recording some reflections on that conversation.
 
@@ -169,4 +169,4 @@ Another active participant in the discussion was Steve Hsu, Vice President for R
 The SciFoo discussion was excellent, as was the weekend as a whole: I would like to take this chance to thank O'Reilly Media, Digital Science, Nature Publishing Group, and Google for making it all possible.
 
 Nearly a year after my *Brain Drain* brain dump, I am thrilled to see that there are so many good people thinking about and working on these problems, and so many real solutions both in process and on the horizon.
-While the lure of a well-funded tech industry will doubtless still attract a steady stream of scientists away from their academic research, I'm heartened by the fact that there is so much focused effort to carve-out good niches within academia for those researchers who are best equipped for success in modern data-intensive science.
+While the lure of a well-funded tech industry will doubtless still attract a steady stream of scientists away from their academic research, I'm heartened to see such focused effort toward carving-out niches within academia for those who have so much to contribute.
