@@ -44,7 +44,7 @@ Baked or Fried? Bayesian or Frequentist?
 ----------------------------------------
 So what's my point here? The fact is that everything our Food Theorist has said is technically correct: from a completely reductionist perspective, cooking meat is nothing more than controlled denaturing of proteins, evaporation of water, and other well-understood chemical processes. But to *actually prepare a meal*, you can't stop with the theory. You have to figure out how to apply that knowledge in practice, and that requires decisions about whether to use an oven, a deep fryer, or a charcoal grill.
 
-Similarly, everything Mr. Ross said in his blog post is more or less true, but you can't stop there. Applying his decision theory in practice requires making some choices: despite his protests, you actually *do* have to decide how to map your theory of probability onto reality reflected in data, and that requires some actual philosophical choices about how you treat probability.
+Similarly, everything Mr. Ross said in his blog post is more or less true, but you can't stop there. Applying his decision theory in practice requires making some choices: despite his protests, you actually *do* have to decide how to map your theory of probability onto reality reflected in data, and that requires some actual philosophical choices about how you treat probability, which lead to fundamentally different questions being answered.
 
 
 Frequentism vs. Bayesianism, Again
