@@ -19,7 +19,7 @@ Rethinking the Debate
 ---------------------
 Thus, we see that his first set of complaints can be chalked-up to a simple misunderstanding of the intended audience: that's an honest mistake, and I won't make more of it. But he goes beyond this, and proposes his own final answer to the centuries-old debate between frequentists and Bayesians. As he writes: "Which one is right? The answer, as usual when faced with a dichotomy, is neither."
 
-This should pique your interest: he's claiming that not only am I, a humble blogger, an ignorant amateur (which may be true), but that luminaries of the science and statistics world &mdash; people like Neyman, Pearson, Fisher, Jaynes, Jeffries, Savage, and many others who sometimes ardently addressed this question &mdash; are simply ignorant squabblers within the field which they all but created. I doubt I'm alone in finding this sweeping indictment a bit suspect.
+This should pique your interest: he's claiming that not only am I, a humble blogger, an ignorant amateur (which may be true), but that luminaries of the science and statistics world &mdash; people like Neyman, Pearson, Fisher, Jaynes, Jeffreys, Savage, and many others who sometimes ardently addressed this question &mdash; are simply ignorant squabblers within the field which they all but created. I doubt I'm alone in finding this sweeping indictment a bit suspect.
 
 But let's skip these charges and dig further: what third route does Mr. Ross propose to trample all this precedent?  The answer is decision theory:
 
