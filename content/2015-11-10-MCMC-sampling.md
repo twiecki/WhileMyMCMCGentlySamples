@@ -1,4 +1,4 @@
-Title: MCMC Sampling for dummies
+Title: MCMC sampling for dummies
 date: 2015-11-10 09:00
 comments: true
 slug: mcmc-sampling
