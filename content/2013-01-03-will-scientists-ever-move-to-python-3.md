@@ -4,6 +4,8 @@ comments: true
 slug: will-scientists-ever-move-to-python-3
 
 <!-- PELICAN_BEGIN_SUMMARY -->
+*March 2016: Please note the date on this post. Given the developments in the last three years, I would no longer agree with much of what I've written here. Short version: just use Python 3. There's almost no reason not to any more.*
+
 It's been just over four years since the introduction of Python 3, and there
 are still about as many opinions on it as there are Python users.  For
 those who haven't been following, Python 3 is a release
