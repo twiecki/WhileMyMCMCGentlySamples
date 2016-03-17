@@ -4,7 +4,7 @@ comments: true
 slug: will-scientists-ever-move-to-python-3
 
 <!-- PELICAN_BEGIN_SUMMARY -->
-*March 2016: Please note the date on this post. Given the developments in the last three years, I would no longer agree with much of what I've written here. Short version: just use Python 3. There's almost no reason not to any more.*
+*March 2016: Please note the date on this post. Given the developments in the last three years, I would no longer agree with much of what I've written here. In particular, I substantially underestimated the ability of tools like [six](http://pythonhosted.org/six/) and [python-future](http://python-future.org/) to enable single-codebase Python 2/3 support, and virtually all scientific packages now use such tools to support both. Short version: just use Python 3. There's almost no reason not to any more.*
 
 It's been just over four years since the introduction of Python 3, and there
 are still about as many opinions on it as there are Python users.  For
