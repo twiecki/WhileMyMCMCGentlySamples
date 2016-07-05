@@ -1,11 +1,11 @@
 name: blogbuild
 dependencies:
-- dateutil=2.1=py27_2
+- dateutil
 - distribute=0.6.45=py27_1
-- freetype=2.4.10=1
+- freetype
 - hyde=0.8.5=py27_0
-- ipython=1.2.1=py27_0
-- ipython-notebook=2.2.0=py27_0
+- ipython
+- ipython-notebook
 - jinja2=2.7.3=py27_1
 - libpng=1.5.13=1
 - libsodium=0.4.5=0
@@ -18,7 +18,7 @@ dependencies:
 - pygments=1.6=py27_0
 - pyparsing=2.0.1=py27_0
 - python=2.7.8=1
-- python.app=1.2=py27_3
+#- python.app=1.2=py27_3
 - pytz=2014.4=py27_0
 - pyyaml=3.11=py27_0
 - pyzmq=14.3.1=py27_0
@@ -31,7 +31,7 @@ dependencies:
 - ssl_match_hostname=3.4.0.2=py27_0
 - tk=8.5.15=0
 - tornado=4.0.1=py27_0
-- yaml=0.1.4=1
+- yaml
 - zeromq=4.0.4=0
 - zlib=1.2.7=1
 - pip:

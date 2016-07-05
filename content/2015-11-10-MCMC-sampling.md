@@ -4,4 +4,4 @@ comments: true
 slug: mcmc-sampling
 tags: bayesian statistics
 
-{% notebook MCMC-sampling-for-dummies.v3.ipynb %}
+{% notebook MCMC-sampling-for-dummies.ipynb %}

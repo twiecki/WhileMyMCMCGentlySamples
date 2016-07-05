@@ -4,4 +4,4 @@ comments: true
 slug: bayesian-deep-learning
 tags: bayesian statistics deep learning neural networks
 
-{% notebook bayesian_neural_network.v3.ipynb %}
+{% notebook bayesian_neural_network.ipynb %}
