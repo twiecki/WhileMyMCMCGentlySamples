@@ -57,7 +57,7 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
 THEME = 'pelican-octopress-theme/'
-PLUGIN_PATH = 'pelican-plugins'
+PLUGIN_PATHS = 'pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
