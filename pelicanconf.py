@@ -57,9 +57,9 @@ NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
 THEME = 'pelican-octopress-theme/'
-PLUGIN_PATHS = 'pelican-plugins'
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'liquid_tags.include_code', 'liquid_tags.notebook', 'render_math',
            'liquid_tags.literal']
 
 DISPLAY_PAGES_ON_MENU = False
@@ -92,11 +92,9 @@ TWITTER_TWEET_COUNT = 3
 TWITTER_SHOW_REPLIES = 'false'
 TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 
-
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
 FEED_ATOM = 'atom.xml'
-
 
 # Search
 SEARCH_BOX = True
