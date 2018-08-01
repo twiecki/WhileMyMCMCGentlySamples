@@ -5,7 +5,7 @@ import os
 AUTHOR = u'Thomas Wiecki'
 SITENAME = u'While My MCMC Gently Samples'
 SITESUBTITLE = """Bayesian modeling, Computational Psychiatry, and Python"""
-SITEURL = ''
+SITEURL = 'https://twiecki.github.io'
 
 TIMEZONE = 'USA/NYC'
 
@@ -19,7 +19,7 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
-MENUITEMS = (('About', 'https://sites.google.com/a/brown.edu/lncc/home/members/thomas-wiecki'),
+MENUITEMS = (
              ('Archives', '/archives.html'),
              ('Publications', 'http://scholar.google.com/citations?hl=en&user=s-Ikj-MAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F5Oqgc3UBzbTBAJACr4gTDyi09-j1uryXtyXvDaEUrgtxiKmed0IIQlRvn9CHwFAcpHQB6ncpaBSY6vFsK6fazj3wmh6WLkuQdWdwuxd3uhwYN2kC8&undo=untrash_citations,W7OEmFMy1HYC'),
              ('Contact', '#'))
