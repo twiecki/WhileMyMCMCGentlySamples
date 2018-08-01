@@ -20,7 +20,7 @@ You can download the full notebook [here](https://rawgithub.com/twiecki/WhileMyM
 video embedding due to the size of the animations if they are not
 compressed. The notebook contains code for both.
 
-The model is a simple linear model as explained in my [previous blog post on Bayesian GLMs](http://twiecki.github.io/blog/2013/08/12/bayesian-glms-1/). Essentially,
+The model is a simple linear model as explained in my [previous blog post on Bayesian GLMs](https://twiecki.github.io/blog/2013/08/12/bayesian-glms-1/). Essentially,
 I generated some data and estimate `intercept` and `slope`. In the
 lower left corner is the *joint* posterior while the plot above shows
 the *trace* of the *marginal* posterior of the `intercept` while the

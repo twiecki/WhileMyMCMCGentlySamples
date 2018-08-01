@@ -4,7 +4,7 @@ import os
 
 AUTHOR = u'Thomas Wiecki'
 SITENAME = u'While My MCMC Gently Samples'
-SITESUBTITLE = """Bayesian modeling, Computational Psychiatry, and Python"""
+SITESUBTITLE = """Bayesian modeling, Data Science, and Python"""
 SITEURL = 'https://twiecki.github.io'
 
 TIMEZONE = 'USA/NYC'
@@ -98,3 +98,4 @@ FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
+SITESEARCH = 'https://google.com/search'
