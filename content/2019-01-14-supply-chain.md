@@ -3,6 +3,6 @@ date: 2019-01-14 10:00
 comments: true
 slug: supply_chain
 tags: statistics,bayesian
-published: false
+status: draft
 
 {% notebook supply_chain.ipynb %}
