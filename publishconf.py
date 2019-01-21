@@ -6,7 +6,7 @@ sys.path.append('.')
 from pelicanconf import *
 
 # keep the .com address to properly find disqus comments
-SITEURL = 'https://twiecki.github.io'
+SITEURL = 'https://twiecki.io'
 
 DELETE_OUTPUT_DIRECTORY = True
 

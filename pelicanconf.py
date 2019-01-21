@@ -5,7 +5,7 @@ import os
 AUTHOR = u'Thomas Wiecki'
 SITENAME = u'While My MCMC Gently Samples'
 SITESUBTITLE = """Bayesian modeling, Data Science, and Python"""
-SITEURL = 'https://twiecki.github.io'
+SITEURL = 'https://twiecki.io'
 
 TIMEZONE = 'USA/NYC'
 
@@ -81,9 +81,6 @@ else:
 
 # Sharing
 TWITTER_USER = 'twiecki'
-GOOGLE_PLUS_USER = '107323607569066774338' #thomas.wiecki'
-GOOGLE_PLUS_ONE = True
-GOOGLE_PLUS_HIDDEN = False
 FACEBOOK_LIKE = False
 TWITTER_TWEET_BUTTON = True
 TWITTER_LATEST_TWEETS = True
