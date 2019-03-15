@@ -4,7 +4,7 @@ comments: true
 slug: computational_psychiatry_thesis
 tags: psychiatry
 
-I noticed that as my personal website at my former university went down that my PhD thesis could not be found anywwhere, so I'm posting it here.
+I noticed that as my personal website at my former university went down that my PhD thesis could not be found anywhere, so I'm posting it here.
 
 During my PhD I explored how machine learning and computational modeling of the brain can be used to improve our understanding, and diagnostics, of psychiatric illnesses. See [this blog post by Siobhan Cronin](https://medium.com/@siobhankcronin/frontiers-of-computational-psychiatry-b238494265a3) for her take on the thesis.
 
