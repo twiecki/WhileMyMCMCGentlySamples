@@ -22,7 +22,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = (
              ('Archives', '/archives.html'),
              ('Publications', 'http://scholar.google.com/citations?hl=en&user=s-Ikj-MAAAAJ&sortby=pubdate&view_op=list_works&gmla=AJsN-F5Oqgc3UBzbTBAJACr4gTDyi09-j1uryXtyXvDaEUrgtxiKmed0IIQlRvn9CHwFAcpHQB6ncpaBSY6vFsK6fazj3wmh6WLkuQdWdwuxd3uhwYN2kC8&undo=untrash_citations,W7OEmFMy1HYC'),
-             ('Contact', '#'))
+             )
 
 NEWEST_FIRST_ARCHIVES = False
 
