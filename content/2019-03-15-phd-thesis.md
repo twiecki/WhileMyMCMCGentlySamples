@@ -2,7 +2,6 @@ Title: Computational Psychiatry: Combining multiple levels of analysis to unders
 date: 2019-03-15 10:00
 comments: true
 slug: computational_psychiatry_thesis
-tags: psychiatry
 
 I noticed that as my personal website at my former university went down that my PhD thesis could not be found anywhere, so I'm posting it here.
 
