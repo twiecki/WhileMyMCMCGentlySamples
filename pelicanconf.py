@@ -6,6 +6,7 @@ AUTHOR = u'Thomas Wiecki'
 SITENAME = u'While My MCMC Gently Samples'
 SITESUBTITLE = """Bayesian modeling, Data Science, and Python"""
 SITEURL = 'https://twiecki.io'
+#SITEURL = 'http://localhost:8000'
 
 TIMEZONE = 'USA/NYC'
 
@@ -23,7 +24,7 @@ DISPLAY_PAGES_ON_MENU = False
 
 # Title menu options
 MENUITEMS = (
-             ('How PyMC3 can help you', '/pages/how-can-pymc3-help-me.html'),
+             ('Consulting', 'https://www.pymc-labs.io'),
              ('Intuitive Bayesian Guide', '/pages/an-intuitive-guide-to-bayesian-statistics.html'),
              #('Consulting', '/pages/consulting.html'),
              #('Workshops', '/pages/workshops.html'),
