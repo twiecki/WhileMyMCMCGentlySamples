@@ -12,11 +12,11 @@ Let me start with a confession: I've never been great at math. Learning statisti
 
 If, like me, you have a coding background, math will not be your first language. You think in code and figure things out by playing around with them.
 
-I have suffered through enough dry math so that you don't have to, and that is what I have done with my blog and talks I've given. For example, my [post on Markov chain Monte Carlo sampling](https://twiecki.io/blog/2015/11/10/mcmc-sampling/) gets by with 3 simple formulas but plenty of code and visualizations to explain the *intuition* of the algorithm, which is much simpler than the math lets on. See the quotes at the end of this post for the feedback I've gotten on this teaching style.
+I have suffered through enough dry math so that you don't have to, and that is what I have done with [my blog](https://twiecki.io) and [talks](https://www.youtube.com/watch?v=xVi4eosYrhA&list=PL1Ma_1DBbE80Lf2GzqfUDSEgn5eRaaxEG) I've given. For example, my [post on Markov chain Monte Carlo sampling](https://twiecki.io/blog/2015/11/10/mcmc-sampling/) gets by with 3 simple formulas but plenty of code and visualizations to explain the *intuition* of the algorithm, which is much simpler than the math lets on. See the quotes at the end of this post for the feedback I've gotten on this teaching style.
 
 Now I'm not saying that math is not important or won't be covered in the course, but it will always come second, understanding and intuition is much more important. And once you have an intuitive understanding, the math suddenly becomes trivial.
 
-This course will consist of short videos explaining key concepts of Bayesian modeling with a heavy focus on application. See [this post for why Bayesian statistics is such a powerful data science tool](https://twiecki.io/pages/how-can-pymc3-help-you.html). We will make use of Probabilistic Programming tools like PyMC3 which allow easy specification of statistical models in computer code without deep knowledge of the underlying math.
+This course will consist of short videos explaining key concepts of Bayesian modeling with a heavy focus on application. See [this post for why Bayesian statistics is such a powerful data science tool](https://twiecki.io/pages/how-can-pymc3-help-me.html). We will make use of Probabilistic Programming tools like PyMC3 which allow easy specification of statistical models in computer code without deep knowledge of the underlying math.
 
 If you want to keep updated about the course, get a sneek-peak, and lock in an early-bird discount, enter your email here:
 
@@ -46,7 +46,7 @@ If you want to keep updated about the course, get a sneek-peak, and lock in an e
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
-### Quotes:
+### Quotes
 
 *"If all algorithms were explained as clearly as this, I'd be so much further ahead in having all of these statistical tools in my mental toolbox."* Robert M Johnson
 
