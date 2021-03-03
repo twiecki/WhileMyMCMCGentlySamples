@@ -1,4 +1,4 @@
-Title: Introducing PyMC Labs
+Title: Introducing PyMC Labs: Saving the World with Bayesian Modeling
 date: 2021-02-23 10:00
 comments: true
 draft: true
