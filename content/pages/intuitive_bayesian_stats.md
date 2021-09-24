@@ -18,7 +18,7 @@ Now I'm not saying that math is not important or won't be covered in the course,
 
 This course will consist of short videos explaining key concepts of Bayesian modeling with a heavy focus on application. See [this post for why Bayesian statistics is such a powerful data science tool](https://twiecki.io/pages/how-can-pymc3-help-me.html). We will make use of Probabilistic Programming tools like PyMC3 which allow easy specification of statistical models in computer code without deep knowledge of the underlying math.
 
-If you want to keep updated about the course, get a sneek-peak, and lock in an early-bird discount, enter your email here:
+If you want to keep updated about the course enter your email here:
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
