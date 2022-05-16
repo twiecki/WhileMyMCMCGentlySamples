@@ -64,11 +64,17 @@ STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
+MARKUP = ("md", "ipynb")
+
+from pelican_jupyter import markup as nb_markup
+
+IGNORE_FILES = [".ipynb_checkpoints"]
+
 # Theme and plugins
 THEME = 'pelican-octopress-theme'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.notebook', 'render_math',
+           'liquid_tags.include_code', nb_markup, 'render_math',
            'liquid_tags.literal', 'i18n_subsites']
 
 DISPLAY_PAGES_ON_MENU = False
